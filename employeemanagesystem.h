@@ -16,6 +16,7 @@ public:
     void AddEmp();
     void Save();
     void ShowEmp();
+    int IsExist(int id);
     void DelEmp();
     void ModEmp();
     void FindEmp();
@@ -25,6 +26,6 @@ public:
     ~Ems();
     int m_EmpNum;
     Worker ** m_EmpArray;
-    bool m_FileIsEmpty; //判断文件是否为空
+    bool m_FileIsEmpty = false; //判断文件是否为空
 
 };

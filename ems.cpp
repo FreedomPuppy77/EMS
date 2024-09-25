@@ -38,16 +38,22 @@ int main() {
             em.AddEmp();
             break;
         case 2:
+            em.ShowEmp();
             break;
         case 3:
+            em.DelEmp();
             break;
         case 4:
+            em.ModEmp();
             break;
         case 5:
+            em.FindEmp();
             break; 
         case 6:
+            em.SortEmp();
             break; 
         case 7:
+            em.ClearAll();
             break;  
         default:
             break;
